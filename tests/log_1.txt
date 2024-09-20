@@ -1,0 +1,67 @@
+==47854== Memcheck, a memory error detector
+==47854== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==47854== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==47854== Command: ./part1 input.txt
+==47854== 
+total 176
+ 4 .vscode
+ 4 string_parser.h
+ 4 string_parser.c
+ 8 part4.c
+20 part4
+ 4 part3.c
+20 part3
+ 4 part2.c
+20 part2
+ 4 part1.c
+20 part1
+ 4 Makefile
+ 4 log_part1.txt
+ 4 log_1.txt
+ 4 iobound.c
+16 iobound
+ 4 input.txt
+ 4 cpubound.c
+16 cpubound
+ 4 ..
+ 4 .
+MCP system is now running and will execute commands from the file.
+The MCP is currently running line 1, ls -a -r -s
+The MCP is currently running line 2, sleep 1
+The MCP is currently running line 3, invalid name
+Failed to execute the command from line 3, start with invalid
+==47857== 
+==47857== HEAP SUMMARY:
+==47857==     in use at exit: 757 bytes in 6 blocks
+==47857==   total heap usage: 19 allocs, 13 frees, 9,066 bytes allocated
+==47857== 
+==47857== LEAK SUMMARY:
+==47857==    definitely lost: 0 bytes in 0 blocks
+==47857==    indirectly lost: 0 bytes in 0 blocks
+==47857==      possibly lost: 0 bytes in 0 blocks
+==47857==    still reachable: 757 bytes in 6 blocks
+==47857==         suppressed: 0 bytes in 0 blocks
+==47857== Reachable blocks (those to which a pointer was found) are not shown.
+==47857== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==47857== 
+==47857== For lists of detected and suppressed errors, rerun with: -s
+==47857== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+Process: 47859 - Begining calculation.
+Process: 47859 - Finished.
+Process: 47858 - Begining to write to file.
+Process: 47858 - Finished.
+MCP system is now running and will execute commands from the file.
+The MCP is currently running line 1, ls -a -r -s
+The MCP is currently running line 2, sleep 1
+The MCP is currently running line 3, invalid name
+The MCP is currently running line 4, ./iobound -seconds 10
+The MCP is currently running line 5, ./cpubound -seconds 10
+==47854== 
+==47854== HEAP SUMMARY:
+==47854==     in use at exit: 0 bytes in 0 blocks
+==47854==   total heap usage: 29 allocs, 29 frees, 9,220 bytes allocated
+==47854== 
+==47854== All heap blocks were freed -- no leaks are possible
+==47854== 
+==47854== For lists of detected and suppressed errors, rerun with: -s
+==47854== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
