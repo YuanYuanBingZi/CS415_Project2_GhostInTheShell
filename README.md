@@ -59,8 +59,8 @@ Each phase of the project builds on the last, adding features like scheduling, s
 #### Installation
 Clone the repository and navigate to the project directory:
 ```bash
-git clone https://github.com/YuanYuanBingZi/mcp-process-scheduler.git
-cd mcp-process-scheduler
+git clone https://github.com/YuanYuanBingZi/Ghost-In-The-Shell.git
+cd Ghost-In-The-Shell
 ```
 
 To build the project, simply run:
@@ -120,11 +120,5 @@ This project demonstrates advanced OS-level programming skills, including proces
 ### Conclusion
 
 This project highlights my ability to work on complex system-level problems, break them down into modular phases, and deliver robust, well-documented code. It showcases not only my understanding of operating systems but also my problem-solving abilities, attention to detail, and capacity to manage resource-constrained environments.
-
----
-
-### Contact Information
-
-If you'd like to discuss the project, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/tongg/) or [email](yuanyuanbingzi@gmail.com).
 
 ---
