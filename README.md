@@ -7,6 +7,16 @@ The project is structured in multiple phases, each demonstrating incremental com
 
 ---
 
+### Philosophical Inspiration: "Ghost in the Machine"
+
+This project draws inspiration from the philosophical concept of the **"Ghost in the Machine"**, first introduced by Gilbert Ryle and later explored by Arthur Koestler. The concept challenges the traditional Cartesian dualism, questioning whether mind (or consciousness) can exist independently of the body. In this project, the **MCP** can be seen as the "ghost" that orchestrates and controls multiple independent processes, much like how the mind might manage the body.
+
+In a more practical sense, the MCP embodies the operating system's role as the "mind" of the computer, controlling, scheduling, and overseeing the execution of various processes (the "body"). The processes are independent, isolated entities, yet the MCP brings them to life, much like consciousness animates the physical body. This parallel between philosophy and operating systems illustrates how abstract concepts can be applied to real-world systems design.
+
+Through this project, I explored the connection between the metaphysical idea of mind-body duality and the very tangible technical challenge of managing multiple processes in a concurrent computing environment. The MCP operates as the "conductor," much like the mind, deciding when and how processes execute while ensuring efficient resource use and control over their behavior.
+
+---
+
 ### Features
 - **Process Creation and Management**: The MCP launches a set of processes based on commands from an input file, simulating real-world process handling.
 - **Custom Scheduling Algorithm**: Implemented a round-robin scheduler to manage the execution of processes in a time-sliced manner, ensuring fair CPU allocation.
